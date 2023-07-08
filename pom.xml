@@ -11,13 +11,11 @@
 
     <modules>
         <module>ch02</module>
+        <module>ch04</module>
     </modules>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
+        <java.version>17</java.version>
         <hibernate-entitymanager.version>5.6.9.Final</hibernate-entitymanager.version>
         <mysql-connector-java.version>8.0.29</mysql-connector-java.version>
         <junit-jupiter-engine.version>5.8.2</junit-jupiter-engine.version>
