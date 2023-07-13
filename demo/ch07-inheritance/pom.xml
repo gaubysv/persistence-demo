@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.example.persistencedemo</groupId>
+        <artifactId>demo</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>ch07-inheritance</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>table-per-concrete-class-with-implicit-polymorphism</module>
+        <module>table-per-concrete-class-with-unions</module>
+        <module>table-per-class-hierarchy</module>
+        <module>table-per-subclass-with-joins</module>
+        <module>mixing-inheritance-strategies</module>
+    </modules>
+</project>
