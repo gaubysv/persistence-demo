@@ -17,6 +17,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>ch08-collections</module>
+        <module>ch09-advanced-entity-association-mapping</module>
     </modules>
 
     <properties>
