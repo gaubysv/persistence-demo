@@ -11,7 +11,6 @@
 
     <modules>
         <module>ch02</module>
-        <module>ch04</module>
     </modules>
 
     <properties>
